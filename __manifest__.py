@@ -2,7 +2,7 @@
 {
     'name': "odoo_olamundo",
 
-    'summary': """
+    'summary': """ 
         Proxecto inicial ola mundo""",
 
     'description': """
