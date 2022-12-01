@@ -1,7 +1,8 @@
 <odoo>
   <data>
+
     <record model="ir.actions.act_window" id="olamundo_list_action">
-      <field name="name">A acción de ola mundo</field>
+      <field name="name">A acción con ola mundo</field>
       <field name="res_model">odoo_olamundo.olamundo</field>
       <field name="view_mode">tree,form</field>
       <field name="help" type="html">
@@ -10,22 +11,16 @@
     </record>
 
     <record model="ir.ui.view" id="olamundo_form_view">
-      <field name="name">odoo_olamundo.form</field>
+      <field name="name">olamundo.form</field>
       <field name="model">odoo_olamundo.olamundo</field>
       <field name="arch" type="xml">
-        <form string ="Formulario OLa MUndo">
-          <sheet>
-            <group>
-              <field name="name"/>
-            </group>
-          </sheet>
+        <form string="Formulario para Ola Mundo">
+          <group>
+            <field name="name"/>
+          </group>
         </form>
       </field>
     </record>
-
-
-
-
     <!-- server action to the one above -->
     <!--
         <record model="ir.actions.server" id="odoo_olamundo.action_server">

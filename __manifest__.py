@@ -2,15 +2,15 @@
 {
     'name': "odoo_olamundo",
 
-    'summary': """ 
+    'summary': """
         Proxecto inicial ola mundo""",
 
-    'description': """
-        Proxecto incial de ola mundo
+    'description': """ 
+        Proxecto de toma de contacto...
     """,
 
     'author': "Eu",
-    'website': "http://www.yourcompany.com",
+    'website': "http://edu.xunta.gal/centros/iesteis",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -23,9 +23,9 @@
 
     # always loaded
     'data': [
-
         'views/olamundo.xml',
         'views/templates.xml',
+        'views/menu.xml',
         'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode
